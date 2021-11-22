@@ -1,6 +1,5 @@
 
-// prideli nam class sticky na header, vyzdy ked trochu zoskrolujeme
-// a ked videme nahor na 0 tak ho odobere
+
 window.addEventListener('scroll', function(){
     const header = this.document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 0);
